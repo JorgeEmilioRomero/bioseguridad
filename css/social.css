@@ -39,11 +39,11 @@
 
 .icon-whatsapp:before {
   content: "\6b";
-  color: limegreen;
+  color: #3d3531;
 }
 .icon-envelope:before {
   content: "\6c";
-  color: #976dd0;
+  color: #3d3531;
 }
 .icon-cart:before {
   content: "\62";
