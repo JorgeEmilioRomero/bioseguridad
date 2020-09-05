@@ -1,0 +1,506 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:brfore,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*estilos para el header*/
+
+div.header {
+  background-image: url(../img/Perroygatoasomado.png);
+  height: 9em;
+  background-position-x: center;
+  background-position-y: 0;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+div.header p i {
+  font-size: 2.4rem;
+}
+
+p.logo img {
+  width: 170px;
+  height: 140px;
+  float: left;
+}
+
+nav.redes-sociales {
+  float: right;
+  text-align: right;
+  font-size: 30px;
+  margin: 0px;
+  text-decoration: none;
+  text-size-adjust: 12px;
+}
+
+nav.redes-sociales .boton1 {
+  margin: 0px;
+  text-decoration: none;
+  background-color: #976dd0;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  color: #ffffff;
+  font: 24px Oswald, sans-serif;
+}
+
+/*estilos para la barra de navegacion*/
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    width: 100%;
+  }
+}
+
+div.rango {
+  width: 100%;
+  height: 80px;
+  background-color: #976dd0;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+nav.navbar {
+  margin-right: 0;
+  margin-top: 0px;
+  padding: 0 10px 0px 10px;
+  background-color: #976dd0;
+}
+
+nav.navbar input {
+  margin-top: 15px;
+}
+
+nav.navbar li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+nav.navbar li:first-child {
+  padding-left: 17rem;
+}
+
+@media (max-width: 480px) {
+  nav.navbar li {
+    padding: 0 0 0 0;
+  }
+}
+
+a.nav-link {
+  color: #ffffff;
+  font: 24px Oswald, sans-serif;
+  background: rgba(48, 47, 47, 0.69);
+  padding: 22px;
+}
+
+nav.navbar a {
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: inline-block;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  margin-inline-start: 0rem;
+  text-align: center;
+  background-color: #5f4581;
+}
+
+nav.navbar a:hover {
+  background-color: #976dd0;
+}
+
+nav.navbar .boton2 {
+  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: black;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  cursor: default;
+  font: 400 13.3333px Arial;
+}
+
+/*estilos cartas*/
+
+div.card {
+  padding: 20px 10px 20px 10px;
+  height: 630px;
+}
+
+div.card-body p.colores {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+div.card-estilo img {
+  height: 450px;
+}
+
+/*estilos para el carrusel*/
+div.carousel-inner .color {
+  color: black;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+/*estilos cartas*/
+
+div.catra {
+  padding: 20px 10px 20px 10px;
+}
+
+div.card-body .colores {
+  text-decoration: none;
+  color: #976dd0;
+}
+
+/*estilos segunda barra*/
+
+div.rango {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(49, 49, 49);
+  margin-top: 0px;
+  padding: 0;
+}
+
+nav.navbar2 {
+  margin-right: 0;
+  margin-top: 40px;
+  padding: 40px 10px 10px 0px;
+  background-color: #424242;
+}
+
+div.pocision {
+  color: white;
+  float: none;
+  position: absolute;
+}
+div.cajas {
+  position: absolute;
+  float: initial;
+}
+
+nav.navbar2 a {
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 80%;
+  display: block;
+  text-align: center;
+  margin: 2px 15px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-left: 6rem;
+  background-color: #424242;
+}
+
+nav.navbar2 li:first-child {
+  padding-left: 6rem;
+}
+
+nav.navbar2 a:hover {
+  background-color: #5f4591;
+  border-radius: 10px;
+}
+
+nav.navbar2 .boton2 {
+  color: #ffffff;
+}
+
+/* pagina de nosotros */
+
+div.imagen-fondo img {
+  float: left;
+  image-orientation: from-image;
+  margin-top: 5rem;
+}
+
+div.texto-nosotros {
+  float: right;
+  text-align: center;
+}
+
+div.texto-nosotros p {
+  padding: 70px 0 0 0;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+/* productos perros */
+
+div.card-deck {
+  padding-top: 30px;
+}
+
+div.card {
+  background-color: rgb(95, 69, 129);
+}
+
+div.card h5 {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+div.card p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2em;
+}
+
+/* pagina contacto */
+
+div.imagen-fondo-contacto {
+  float: right;
+  image-orientation: from-image;
+}
+
+div.formulario {
+  float: left;
+  text-align: center;
+}
+
+/* formulario */
+form {
+  width: auto;
+  margin: 0em;
+  padding: 0px 0px;
+  margin-top: 15px;
+  border-radius: 7px;
+}
+
+label {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-size: 1rem;
+  float: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: 0.5px solid #a7a795;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background: #313b4a;
+  color: #fff;
+  padding: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 489px;) {
+  form {
+    width: 100%;
+  }
+}
+
+div.imagen-fondo-contacto img {
+  padding: 6rem 0rem 0rem 0rem;
+}
+
+/*ESTILOS DESCRIPCIONES*/
+
+.img-descripcion {
+  margin: 2rem 2rem 2rem 2rem;
+  width: 250px;
+  height: 440px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #5f4591;
+  display: inline-block;
+}
+
+.color-collar-naranja {
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: darkorange;
+}
+
+.color-collar-negro {
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: black;
+}
+
+.color-collar-rojo {
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: crimson;
+}
+
+.color-collar-azul {
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: royalblue;
+}
+
+.color-collar-verde {
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: limegreen;
+}
+
+.color-collar-rosado {
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: hotpink;
+}
+
+.color-collar-comprar {
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: #5f4591;
+}
+
+.color-collar-fucsia {
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: deeppink;
+}
+
+.color-collar-amarillo {
+  width: 5rem;
+  height: 2rem;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: goldenrod;
+}
+
+h3 {
+  color: #5f4591;
+}
+
+h3 p {
+  color: #424242;
+  font-size: 18px;
+  width: 60rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.h1 {
+  color: #5f4581;
+  text-align: center;
+  font-size: 50px;
+}

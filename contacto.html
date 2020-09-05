@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellas</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header center-block">
+      <p class="logo col-md-7">
+        <img src="img/logo.JPG" class="img-fluid" alt="">
+      </p>
+      <p class="redes col-md-5">
+        <nav class="redes-sociales">
+          <a href="https://api.whatsapp.com/send?phone=+573508259536"target="_BLANK"><i class="icon-whatsapp"></i></a>
+          <a href="#"><i class="icon-envelope"></i></a><br>
+          <a href="login/index.php" class="boton1">INGRESAR</a>
+        </nav>
+      </p>
+    </div>    
+  </div>
+  
+    <nav class="navbar navbar-expand-lg ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>     
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="boton2 nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Collares
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="gatos.html">Gatos</a>
+                <a class="dropdown-item" href="perros.html">Perros</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">    
+        <div class="row">
+           <div class="col-md-6">
+                <div class="formulario">
+                    <form action="enviar.php" method="POST">
+                        <label for="">¿Tienes alguna pregunta? !Estamos encantados de ayudarte¡</label><br><br>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" placeholder="Apellido" required>
+                        <label for="apellido">Correo</label>
+                        <input type="mail" name="correo" placeholder="Correo electronico" required>
+                        <label for="telefono">Telefono</label>
+                        <input type="text" name="telefono" placeholder="Telefono">
+                        <label for="ciudad">Ciudad</label>
+                        <input type="text" name="ciudad" placeholder="Ciudad" required>
+                        <label for="descripcion">Descripcion</label>
+                        <textarea name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+                        <input type="submit" value="Enviar" id="boton">
+                    </form>
+                </div>
+           </div>
+           <div class="col-md-6">
+            <div class="imagen-fondo-contacto">
+                <img src="img/goldenContacto.jpg " class="img-fluid" alt="perro y gato amor">
+              </div>
+           </div>
+        </div>
+      </div>
+
+  <footer>
+    <nav class="navbar2 navbar-expand-lg ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="boton2 nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Collares
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="gatos.html">Gatos</a>
+                      <a class="dropdown-item" href="perros.html">Perros</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>            
+        </div>
+    </nav>
+  </footer>
+     
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+</body>
+</html>
