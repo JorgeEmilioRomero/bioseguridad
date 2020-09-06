@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/da7c914d-9de5-4988-83e9-5cbeece5172d/resourceGroups/Huellas-GrupoRecursos/providers/Microsoft.Web/sites/huellas1",
-    "appService.deploySubpath": ""
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/a3ddb24d-0b3d-4c59-aca1-b9cdc680b8d4/resourceGroups/bioseguridad/providers/Microsoft.Web/sites/covid19"
 }
