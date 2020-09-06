@@ -55,7 +55,7 @@ nav.redes-sociales .boton1 {
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 10px;
-  color: #ffffff;
+  color: #212529;
   font: 24px Oswald, sans-serif;
 }
 
@@ -111,9 +111,8 @@ nav.navbar li:first-child {
 }
 
 a.nav-link {
-  color: #ffffff;
+  color: #FFFFFF;
   font: 24px Oswald, sans-serif;
-  background: #3d3531;
   padding: 22px;
 }
 
@@ -138,7 +137,7 @@ nav.navbar a:hover {
 }
 
 nav.navbar .boton2 {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .navbar-toggler-icon {
@@ -258,7 +257,7 @@ div.cajas {
 
 nav.navbar2 a {
   font-family: "Oswald", sans-serif;
-  color: #ffffff;
+  color: #212529;
   font-size: 0.9rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -283,10 +282,10 @@ nav.navbar2 a:hover {
 }
 
 nav.navbar2 .boton2 {
-  color: #ffffff;
+  color: #212529;
 }
 
-/* pagina de nosotros */
+/* pagina de Nosotros */
 
 div.imagen-fondo img {
   float: left;
@@ -294,13 +293,14 @@ div.imagen-fondo img {
   margin-top: 5rem;
 }
 
-div.texto-nosotros {
+div.texto-Nosotros {
   float: right;
-  text-align: center;
+  text-align: justify;
+  padding-left: 30px;
 }
 
-div.texto-nosotros p {
-  padding: 70px 0 0 0;
+div.texto-Nosotros p {
+  padding: 40px 0 0 0;
   margin: auto;
   font-size: 1.2em;
 }
@@ -372,7 +372,7 @@ textarea {
 }
 
 #boton {
-  background: #313b4a;
+  background: #d31c12;
   color: #fff;
   padding: 20px;
 }
@@ -485,6 +485,12 @@ div.imagen-fondo-contacto img {
   background-color: goldenrod;
 }
 
+.h1 {
+  color: #3d3531;
+  text-align: center;
+  font-size: 50px;
+}
+
 h2 {
   color: ##3d3531;
   font-size: 28px;
@@ -500,6 +506,30 @@ h3 {
   padding: 40px;
 }
 
+h4 {
+  color: ##3d3531;
+  font-size: 18px;
+  text-align: :left;
+  font-family: Oswald, sans-serif;
+  padding: 0px;
+}
+
+h5 {
+  color:#d31c12;
+  font-size: 20px;
+  text-align: :left;
+  font-family: Oswald, sans-serif;
+  padding: 0px;
+}
+
+h6 {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: :justify;
+  font-family: Oswald, sans-serif;
+  padding: 30px;
+}
+
 h3 p {
   color: #424242;
   font-size: 18px;
@@ -507,14 +537,10 @@ h3 p {
 }
 
 p {
-  color: #ffffff;
-  text-align: justify;
-  padding-left: 20px;
+  color: ##3d3531;
+  font-size: 18px;
+  text-align: :justify;
   font-family: Oswald, sans-serif;
 }
 
-.h1 {
-  color: #3d3531;
-  text-align: center;
-  font-size: 50px;
-}
+

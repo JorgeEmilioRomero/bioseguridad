@@ -52,11 +52,11 @@ if (!isset($_SESSION['cargo']) || $_SESSION['cargo'] != 2) {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Lavado de Manos <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="boton2 nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Collares
+            Protocolos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="gatos.html">Gatos</a>
@@ -64,7 +64,7 @@ if (!isset($_SESSION['cargo']) || $_SESSION['cargo'] != 2) {
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="nosotros.html">Nosotros</a>
+          <a class="nav-link" href="Nosotros.html">Nosotros</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contacto.html">Contacto</a>
@@ -162,11 +162,11 @@ if (!isset($_SESSION['cargo']) || $_SESSION['cargo'] != 2) {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Lavado de Manos <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="boton2 nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Collares
+              Protocolos
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="gatos.html">Gatos</a>
@@ -174,7 +174,7 @@ if (!isset($_SESSION['cargo']) || $_SESSION['cargo'] != 2) {
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="nosotros.html">Nosotros</a>
+            <a class="nav-link" href="Nosotros.html">Nosotros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacto.html">Contacto</a>

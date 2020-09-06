@@ -55,7 +55,7 @@ nav.redes-sociales .boton1 {
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 10px;
-  color: #ffffff;
+  color: #212529;
   font: 24px Oswald, sans-serif;
 }
 
@@ -111,7 +111,7 @@ nav.navbar li:first-child {
 }
 
 a.nav-link {
-  color: #ffffff;
+  color: #212529;
   font: 24px Oswald, sans-serif;
   background: rgba(48, 47, 47, 0.69);
   padding: 22px;
@@ -119,7 +119,7 @@ a.nav-link {
 
 nav.navbar a {
   font-family: "Oswald", sans-serif;
-  color: #ffffff;
+  color: #212529;
   font-size: 1.5em;
   text-transform: uppercase;
   text-decoration: none;
@@ -138,7 +138,7 @@ nav.navbar a:hover {
 }
 
 nav.navbar .boton2 {
-  color: #ffffff;
+  color: #212529;
 }
 
 .navbar-toggler-icon {
@@ -258,7 +258,7 @@ div.cajas {
 
 nav.navbar2 a {
   font-family: "Oswald", sans-serif;
-  color: #ffffff;
+  color: #212529;
   font-size: 0.9rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -283,10 +283,10 @@ nav.navbar2 a:hover {
 }
 
 nav.navbar2 .boton2 {
-  color: #ffffff;
+  color: #212529;
 }
 
-/* pagina de nosotros */
+/* pagina de Nosotros */
 
 div.imagen-fondo img {
   float: left;
@@ -294,12 +294,12 @@ div.imagen-fondo img {
   margin-top: 5rem;
 }
 
-div.texto-nosotros {
+div.texto-Nosotros {
   float: right;
   text-align: center;
 }
 
-div.texto-nosotros p {
+div.texto-Nosotros p {
   padding: 70px 0 0 0;
   margin: auto;
   font-size: 1.2em;

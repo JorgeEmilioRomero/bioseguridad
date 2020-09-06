@@ -111,7 +111,7 @@ if (isset($_SESSION['id'])) {
               No tienes una cuenta? <a href="registro.php"> Registrate!</a>
             </p>
             <p>
-              Regresar al inicio. <a href="../../index.html"> Regresar</a>
+              Regresar al Lavado de Manos. <a href="../../index.html"> Regresar</a>
             </p>
           </section><br><br>
 
