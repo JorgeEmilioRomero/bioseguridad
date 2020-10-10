@@ -19,7 +19,6 @@ html {
 /*estilos para el header*/
 
 div.header {
-  background-image: url(../img/oficinasInicio4.PNG);
   height: 9em;
   background-position-x: 15em;
   background-position-y: -1em;
@@ -133,7 +132,7 @@ nav.navbar a {
 }
 
 nav.navbar a:hover {
-  background-color: #d31c12;
+  background-color: #403256;
 }
 
 nav.navbar .boton2 {
@@ -404,91 +403,12 @@ div.imagen-fondo-contacto img {
   display: inline-block;
 }
 
-.color-collar-naranja {
-  width: 5rem;
-  height: 2rem;
-  margin: 2rem 0.5rem 0.5rem 0.5rem;
-  color: white;
-  border-radius: 0.8rem;
-  background-color: darkorange;
-}
-
-.color-collar-negro {
-  width: 5rem;
-  height: 2rem;
-  margin: 2rem 0.5rem 0.5rem 0.5rem;
-  color: white;
-  border-radius: 0.8rem;
-  background-color: black;
-}
-
-.color-collar-rojo {
-  width: 5rem;
-  height: 2rem;
-  margin: 2rem 0.5rem 0.5rem 0.5rem;
-  color: white;
-  border-radius: 0.8rem;
-  background-color: #3d3531;
-}
-
-.color-collar-azul {
-  width: 5rem;
-  height: 2rem;
-  margin: 2rem 0.5rem 0.5rem 0.5rem;
-  color: white;
-  border-radius: 0.8rem;
-  background-color: royalblue;
-}
-
-.color-collar-verde {
-  width: 5rem;
-  height: 2rem;
-  margin: 2rem 0.5rem 0.5rem 0.5rem;
-  color: white;
-  border-radius: 0.8rem;
-  background-color: limegreen;
-}
-
-.color-collar-rosado {
-  width: 5rem;
-  height: 2rem;
-  margin: 2rem 0.5rem 0.5rem 0.5rem;
-  color: white;
-  border-radius: 0.8rem;
-  background-color: hotpink;
-}
-
-.color-collar-comprar {
-  width: 5rem;
-  height: 2rem;
-  margin: 2rem 0.5rem 0.5rem 0.5rem;
-  color: white;
-  border-radius: 0.8rem;
-  background-color: #3d3531;
-}
-
-.color-collar-fucsia {
-  width: 5rem;
-  height: 2rem;
-  margin: 2rem 0.5rem 0.5rem 0.5rem;
-  color: white;
-  border-radius: 0.8rem;
-  background-color: deeppink;
-}
-
-.color-collar-amarillo {
-  width: 5rem;
-  height: 2rem;
-  margin: 2rem 0.5rem 0.5rem 0.5rem;
-  color: white;
-  border-radius: 0.8rem;
-  background-color: goldenrod;
-}
-
-.h1 {
-  color: #3d3531;
-  text-align: center;
-  font-size: 50px;
+h1 {
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: :justify;
+  font-family: Oswald, sans-serif;
+  padding: 30px;
 }
 
 h2 {
